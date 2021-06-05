@@ -1,9 +1,9 @@
-#include <conio.h>
 #include <iostream>
+#include <conio.h>
 using namespace std;
 int main()
 {
-cout<<"Hello world";
-return 0;
+cout<<"Hello VS code";
 getch();
+return 0;
 }

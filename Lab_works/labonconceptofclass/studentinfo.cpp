@@ -3,7 +3,7 @@
 #include<conio.h>
 using namespace std;
  
-//creating a class
+//creating a class;
 class student {
 
      string name;
@@ -47,6 +47,6 @@ int main(){
     s1.display();
     s2.display();
  getch();
- 
+
  return 0;   
 }

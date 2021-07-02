@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-    int x=3;
+    auto x=3;
     
     x=3;//"=" operator(equals to; operator)
     cout<<x<<endl;

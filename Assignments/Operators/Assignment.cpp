@@ -1,6 +1,7 @@
 //Assiignment operators
 #include<iostream>
 #include<math.h>
+#include<conio.h>
 using namespace std;
 int main()
 {
@@ -40,6 +41,8 @@ int main()
     
     x>>=1;//(x=x>> =1; (formula)= var(x) / 2 ^(power) y; solution x=3/2^1 or,x=3/2 = 1.5, (since int) , ans=1) // ">>" operatr(right shifting and assignment operator)
     cout<<x<<endl;
-
+     
+    getch();
+    
     return 0;
 }

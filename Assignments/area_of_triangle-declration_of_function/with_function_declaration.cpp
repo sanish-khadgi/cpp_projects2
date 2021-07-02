@@ -5,7 +5,9 @@
 
 using namespace std;
 
-float area_Triangle(float, float, float);//"function declartion" - is needed as code execute from top to down ; when a program is run  it goes to "main" function -> there is a function call so the function declaraition must be in top
+float area_Triangle(float, float, float);/*"function declartion" - is needed as 
+code execute from top to down ; when a program is run  it goes to "main" function
+ -> there is a function call so the function declaraition must be in top*/
 
 int main(){//main function 
 
@@ -26,17 +28,18 @@ int main(){//main function
 
     cout<<"The area of the triangle is : "<<area;
 
+    getch();
+
      return 0;
 }
-float area_Triangle(float a, float b, float c){// user define function//////this function is executed in funtion declaration
+float area_Triangle(float a, float b, float c){/* user define function//////
+this function is executed in funtion declaration*/
 
 float s, area;
 
 s=(a+b+c)/2;
 
 area=sqrt(s*(s-a)*(s-b)*(s-c));
-
-getch();
 
 return area;
 }

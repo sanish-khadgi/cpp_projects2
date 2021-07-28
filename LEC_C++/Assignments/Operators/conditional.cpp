@@ -1,3 +1,4 @@
+//its a ternary operator
 #include<iostream>
 int main()
 {
